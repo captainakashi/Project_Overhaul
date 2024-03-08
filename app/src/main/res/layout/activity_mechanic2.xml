@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".Mechanic2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ethnocentric"
+        android:textColor="@color/white"
+        android:text="RECOMMENDED SHOPS"
+        android:layout_marginLeft="20dp"
+        android:textSize="22dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+
+                />
+
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+
+                app:srcCompat="@drawable/gr"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GR TUNING AUTO SHOP"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  4.0  ⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 8 AM • Closes 5 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+
+                <Button
+                    android:id="@+id/detail1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Details > > >"
+                    android:textColor="@color/teal_200"
+                    android:layout_marginLeft="250dp"
+                    >
+
+                </Button>
+
+
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/jonar"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="JONAR's AUTO REPAIR SHOP"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  5.0  ⭐⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 9 AM • Closes 5 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+            <Button
+                android:id="@+id/detail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+
+                />
+
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/autobarts"
+                android:layout_marginLeft="50dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AUTOBARTS AUTO SHOP"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  5.0  ⭐⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 8 AM • Closes 5 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+
+            <Button
+                android:id="@+id/detail3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+
+
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/autoshackk"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AUTOSHACK"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  4.0  ⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 8 AM • Closes 5 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+
+            <Button
+                android:id="@+id/detail4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/landucan"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LANDUCAN REPAIR SERVICES"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  5.0  ⭐⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 7 AM • Closes 7 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+            <Button
+                android:id="@+id/detail5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/okayam"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OKAYAM AUTO REPAIR SHOP"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  4.0  ⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 7 AM • Closes 5:30 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+
+            <Button
+                android:id="@+id/detail6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/tj"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TJ's AUTO CARE"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  4.0  ⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 8 AM • Closes 5 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+
+            <Button
+                android:id="@+id/detail7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_marginLeft="50dp"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/kris"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KRIS AUTO REPAIR SHOP"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  5.0  ⭐⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 8 AM • Closes 5 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+            <Button
+                android:id="@+id/detail8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="50dp"
+                app:srcCompat="@drawable/rc"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RC AUTO REPAIR SHOP"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  4.0  ⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 8 AM • Closes 5 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+
+            <Button
+                android:id="@+id/detail9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="291dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@drawable/norcar"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="84dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NORCAR SPEEDWORKS"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating:  5.0  ⭐⭐⭐⭐⭐"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+
+                    android:textStyle="bold"
+                    android:fontFamily="@font/chakra"
+                    />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open 8 AM • Closes 5 PM"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+
+                android:textStyle="bold"
+                android:fontFamily="@font/chakra"
+                />
+            <Button
+                android:id="@+id/detail10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details > > >"
+                android:textColor="@color/teal_200"
+                android:layout_marginLeft="250dp"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="450dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/white"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

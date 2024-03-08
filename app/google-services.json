@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792145053615",
+    "project_id": "project-overhaul",
+    "storage_bucket": "project-overhaul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792145053615:android:4f5313e63eabc7c9f4115a",
+        "android_client_info": {
+          "package_name": "com.example.projectoverhaul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792145053615-1o154hq3hbrg66mu2j69qof5r7jhnnuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk92rVgmcu-RBR7GCDJWR8YKVJuULaNQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792145053615-1o154hq3hbrg66mu2j69qof5r7jhnnuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

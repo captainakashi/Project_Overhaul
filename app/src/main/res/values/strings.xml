@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PROJECT OVERHAUL</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="default_info_title" />
+    <string name="default_info_snippet" />
+    <string name="pick_place" />
+</resources>

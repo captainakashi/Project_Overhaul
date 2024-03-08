@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+
+
+
+        <TextView
+            android:id="@+id/marquee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                      🚥 Welcome to OVERHAUL: Auto Repair Shop and Services FINDER 🚥"
+            android:fontFamily="@font/ethnocentric"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+
+
+            tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btnmap"
+        android:layout_width="203dp"
+        android:layout_height="63dp"
+        android:text="MAP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnMechanic2"
+        android:layout_width="203dp"
+        android:layout_height="63dp"
+        android:text="Auto Repair Shops"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnTow"
+        android:layout_width="203dp"
+        android:layout_height="63dp"
+        android:text="TOWING SERVICES"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnMechanic"
+        android:layout_width="203dp"
+        android:layout_height="63dp"
+        android:text="Need Mechanic?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
